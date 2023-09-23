@@ -60,10 +60,10 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           labels: |
-            org.opencontainers.image.description="image used for cross compilation of rust crate through cross"
-            org.opencontainers.image.authors="Paul Min"
-            org.opencontainers.image.source="https://github.com/paulusminus/cross-aarch64-unknown-linux-gnu"
-            org.opencontainers.image.licenses="MIT"
+            org.opencontainers.image.description=image used for cross compilation of rust crate through cross
+            org.opencontainers.image.authors=Paul Min
+            org.opencontainers.image.source=https://github.com/paulusminus/cross-aarch64-unknown-linux-gnu
+            org.opencontainers.image.licenses=MIT
           tags: |
             type=semver,pattern={{ version }}
 
