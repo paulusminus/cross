@@ -6,10 +6,19 @@ The image includes aarch64 development packages for
 - fontconfig-1
 - gbm
 - gtk-3
+- input
 - xkbcommon
 - sdl2
+- seat
+- systemd
 - udev
 
+## Github Pacakges
+
+Whenever a new tag is pushed, a new image will be build and published on Github Packages.
+The latest image will be found at ghcr.io/paulusminus/cross-aarch64-unknown-linux-gnu.
+
+## Example building the image locally
 
 ```
 buildah -t paulmin.nl/cross:aarch64
