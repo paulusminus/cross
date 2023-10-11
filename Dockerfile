@@ -16,6 +16,7 @@ RUN dpkg --add-architecture arm64 && \
     libgtk-3-dev:arm64 \
     libgbm-dev:arm64 \
     libsdl2-dev:arm64 \
+    libsdl2-ttf-dev:arm64 \
     libseat-dev:arm64 \
     libsystemd-dev:arm64 \
     libinput-dev:arm64
