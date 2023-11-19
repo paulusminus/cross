@@ -15,7 +15,7 @@ The image includes aarch64 development packages for
 
 ## Github Pacakges
 
-Whenever a new tag is pushed, a new image will be build and published on [`Docker Hub`](ghcr.io/paulusminus/cross-aarch64-unknown-linux-gnu).
+Whenever a new tag is pushed, a new image will be build and published on [`Docker Hub`](https://docker.io/paulusminus/cross-aarch64-unknown-linux-gnu).
 
 ## Example building the image locally
 
