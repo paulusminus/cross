@@ -13,7 +13,7 @@ The image includes aarch64 development packages for
 - systemd
 - udev
 
-## Github Pacakges
+## Docker Hub
 
 Whenever a new tag is pushed, a new image will be build and published on [`Docker Hub`](https://docker.io/paulusminus/cross-aarch64-unknown-linux-gnu).
 

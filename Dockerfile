@@ -9,6 +9,7 @@ RUN dpkg --add-architecture arm64 && \
     g++-aarch64-linux-gnu \
     git \
     pkg-config \
+    gobject-introspection \
     libdbus-1-dev:arm64 \
     libudev-dev:arm64 \
     libxkbcommon-dev:arm64 \
