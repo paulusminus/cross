@@ -2,7 +2,7 @@ FROM debian:bookworm
 
 RUN dpkg --add-architecture arm64 && \ 
     apt-get update && \
-    apt-get install --assume-yes \
+    apt-get install --assume-yes --fix-missing \
     curl \
     build-essential \
     cmake \
@@ -13,7 +13,7 @@ RUN dpkg --add-architecture arm64 && \
     libudev-dev:arm64 \
     libxkbcommon-dev:arm64 \
     libfontconfig1-dev:arm64 \
-    libgtk-3-dev:arm64 \
+    libgtk-4-dev:arm64 \
     libgbm-dev:arm64 \
     libsdl2-dev:arm64 \
     libsdl2-ttf-dev:arm64 \
